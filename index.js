@@ -1,5 +1,5 @@
-require("./server.js");
+require('./server.js');
 process.nextTick(function() {
-  require("./consumer.js");
-  require("./broadcaster.js");
+  require('./consumer.js');
+  // require('./broadcaster.js');
 });
